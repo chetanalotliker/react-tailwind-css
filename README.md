@@ -90,4 +90,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - `npx tailwindcss-cli@latest init`
 - This will generate a new file tailwind.config.js
 
-### Include tailwind in your css
+### Include tailwind in your css (index.css)
+
+- `@tailwind base`;
+- `@tailwind components`;
+- `@tailwind utilities`;
