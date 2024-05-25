@@ -68,3 +68,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Steps for initial tailwind css installation
+
+### Install tailwind css
+
+- `npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9`
+
+### Install craco
+
+- `npm install @craco/craco`
+
+### Replace scripts in package.json with these scripts
+
+-`"start": "craco start"` -`"build": "craco build"` -`"test": "craco test"`
+
+### Create a file craco.config.js at the root and add code in it
+
+### Generate tailwind configuration file
+
+- `npx tailwindcss-cli@latest init`
+- This will generate a new file tailwind.config.js
+
+### Include tailwind in your css
